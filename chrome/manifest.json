@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "douban-on-right-click",
+  "version": "1.0",
+  "description": "Highlight the text, and right-client to search on the douban.com",
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon_16x16.png",
+    "48": "icons/icon_48x48.png",
+    "128": "icons/icon_128x128.png"
+  }
+}
